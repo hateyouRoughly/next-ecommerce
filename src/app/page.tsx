@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { Palette, Mail, Clock, Sparkles, ArrowRight } from 'lucide-react';
+// import { ThemeSwitcher } from './ThemeSwitcher';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -65,7 +66,7 @@ function App() {
             <Palette className="h-10 w-10 text-white" />
           </div>
           <span className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-            PaintPro
+          PaintPro {/* <ThemeSwitcher /> */}
           </span>
         </div>
 
